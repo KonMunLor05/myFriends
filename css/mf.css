@@ -1,0 +1,57 @@
+body  {
+    background-color: #d4ca85;
+    color: #FDDA49;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; /* Stroke effect */;
+        background-image: url("../img/bg.jpg");
+}
+#base{
+    background-color: tan;
+    border: double darkolivegreen 15px;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#randButton{
+    border: double darkolivegreen 10px;
+    border-radius: 25px;
+    padding: 2%;
+    color: #FDDA49;
+    background-color: #A66B43;
+    font-weight: bolder;
+}
+#randButton:hover{
+    background-color: #DC8A53;
+}
+.fButton{
+    border: double darkolivegreen 10px;
+    border-radius: 25px;
+    padding: 1%;
+    color: #FDDA49;
+    background-color: #A66B43;
+    font-weight: bolder;
+    margin-right: 2%;
+}
+.fButton:hover{
+    background-color: #DC8A53;
+}
+hr{
+    border: 3px solid darkolivegreen;
+    border-radius: 5px;
+}
+#head{
+    background-image: url("../img/std.png");
+    padding: 1%;
+    margin-bottom: 2%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-style: none;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-width: 10px;
+    border-color: darkolivegreen;
+}
